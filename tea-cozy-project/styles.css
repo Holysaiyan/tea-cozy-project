@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  opacity: 0.9;
+}
+
+body {
+  background-color: black;
+  color: seashell;
+  font-family: Helvetica;
+  font-size: 22px;
+}
+
+/* Header */
+
+header {
+  height: 69px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid seashell;
+  justify-content: space-between;
+}
+
+.header-nav ul {
+  list-style: none;
+  display: flex;
+}
+
+.header-nav ul li {
+  padding-left: 20px;
+  margin-right: 10px;
+  text-decoration: underline;
+}
+
+.header-nav ul li:hover {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+#company-logo {
+  height: 50px;
+  margin-left: 10px;
+}
+
+/* Company mission section */
+
+#company-mission-section {
+  height: 700px;
+  width: 1200px;
+  background-image: url(images/img-mission-background.webp);
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+
+#company-mission-section aside {
+  background-color: black;
+  width: 1200px;
+  line-height: 2.2;
+}
+
+/* Tea Category Section */
+
+#tea-section {
+  width: 1000px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+#tea-section h2,
+h4 {
+  padding-bottom: 20px;
+}
+
+#tea-section ul {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#tea-section ul li {
+  list-style: none;
+  margin-right: 20px;
+}
+
+#tea-section ul li figure img {
+  height: 200px;
+  width: 300px;
+}
+
+#tea-section ul li figure figcaption {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  font-weight: bolder;
+}
